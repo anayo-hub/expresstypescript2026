@@ -1,0 +1,22 @@
+{
+  "name": "typescript-with-express-2026",
+  "version": "1.0.0",
+  "description": "learning express with typescript",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node dist/index.js"
+  },
+  "author": "crescent anayo",
+  "license": "ISC",
+  "dependencies": {
+    "@tsconfig/recommended": "^1.0.13",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "tsx": "^4.23.13",
+    "typescript": "^7.0.2"
+  }
+}
